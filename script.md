@@ -19,7 +19,7 @@ Vulnerabilities are flaws or weaknesses in artifacts or procedures that open a s
 
 Thankfully, when it comes to remediating vulnerabilities in software, we are not starting from scratch. Since 1999, the Common Vulnerabilities and Exposures (CVE) system has cataloged known information security vulnerabilities. This system provides a reference when hardening your infrastructure. The CVE system, in combination with modern devops tooling such as reproducible image builds and automated scanning, has raised the security waterline, making it possible to address known vulnerabilities at scale.
 
-In the modern software security ecosystem, vulnerabilities are tracked in a [National Vulnerability Database (NVD)](https://nvd.nist.gov/) by the [US National Institute of Standards and Technology (NIST)](https://www.nist.gov/). The NVD is a database of Common Vulnerabilities and Exposures (CVE), or known vulnerabilities affecting software. CE are assigned a score, called a CVSS score, that corresponds to the severity of the vulnerability. Based on this score, CVEs can be considered of critical, high, medium, orlow severity. 
+In the modern software security ecosystem, vulnerabilities are tracked in a [National Vulnerability Database (NVD)](https://nvd.nist.gov/) by the [US National Institute of Standards and Technology (NIST)](https://www.nist.gov/). The NVD is a database of Common Vulnerabilities and Exposures (CVE), or known vulnerabilities affecting software. CE are assigned a score, called a CVSS score, that corresponds to the severity of the vulnerability. Based on this score, CVEs can be considered of critical, high, medium, or low severity. 
 
 
 
