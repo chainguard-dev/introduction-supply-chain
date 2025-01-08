@@ -1,12 +1,12 @@
-In this exercise, we'll scan a container image for vulnerabilities using Grype](https://github.com/anchore/grype), a popular container image scanner released and maintained by [Ancore](https://anchore.com). In this exercise, we'll move through the following steps:
+In this exercise, we'll scan a container image for vulnerabilities using [Grype](https://github.com/anchore/grype), a popular container image scanner released and maintained by [Anchore](https://anchore.com). In this exercise, we'll move through the following steps:
 
 1.  Pull the [Grype container image maintained by Chainguard](https://images.chainguard.dev/directory/image/grype/overview).
 2.  Scan the official Python container image for vulnerabilities.
 3.  Interpret the results, learning about how CVEs are categorized.
 
-For this exercise, we'll use the [Grype container image maintained by Chainguard](https://images.chainguard.dev/directory/image/grype/overview). However, you may want to consider[ installing Grype](https://github.com/anchore/grype#installation) on your host machine, as it's a useful tool to have in your vulnerability management toolbox. 
+For this exercise, we'll use the [Grype container image maintained by Chainguard](https://images.chainguard.dev/directory/image/grype/overview). However, you may want to consider [installing Grype](https://github.com/anchore/grype#installation) on your host machine, as it's a useful tool to have in your vulnerability management toolbox. 
 
-To follow this tutiral, you will need a working installation of[ Docker Engine](https://docs.docker.com/engine/install/) or[ Docker Desktop](https://docs.docker.com/desktop/).
+To follow this tutiral, you will need a working installation of [Docker Engine](https://docs.docker.com/engine/install/) or [Docker Desktop](https://docs.docker.com/desktop/).
 
 ## Pulling the Grype Image
 
@@ -59,7 +59,7 @@ On running this command, you should see dynamic output from Grype as the officia
    └── by status:   1 fixed, 1277 not-fixed, 655 ignored 
 ```
 
-Arguably the most important line in this output is the breakdown of vulnerabilities by severity. CVEs are assigned numerical scores according to the[ Common Vulnerability Scoring System (CVSS)](https://nvd.nist.gov/vuln-metrics/cvss). These scores correspond to four categories:
+Arguably the most important line in this output is the breakdown of vulnerabilities by severity. CVEs are assigned numerical scores according to the [Common Vulnerability Scoring System (CVSS)](https://nvd.nist.gov/vuln-metrics/cvss). These scores correspond to four categories:
 
 - Critical (9.0-10.0)
 - High (7.0-8.9)
