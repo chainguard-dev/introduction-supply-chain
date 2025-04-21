@@ -6,7 +6,7 @@ In this exercise, we'll scan a container image for vulnerabilities using [Grype]
 
 For this exercise, we'll use the [Grype container image maintained by Chainguard](https://images.chainguard.dev/directory/image/grype/overview). However, you may want to consider [installing Grype](https://github.com/anchore/grype#installation) on your host machine, as it's a useful tool to have in your vulnerability management toolbox. 
 
-To follow this tutiral, you will need a working installation of [Docker Engine](https://docs.docker.com/engine/install/) or [Docker Desktop](https://docs.docker.com/desktop/).
+To follow this tutorial, you will need a working installation of [Docker Engine](https://docs.docker.com/engine/install/) or [Docker Desktop](https://docs.docker.com/desktop/).
 
 ## Pulling the Grype Image
 
